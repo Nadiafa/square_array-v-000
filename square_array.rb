@@ -5,6 +5,6 @@
 # end
 
 def square_array(array)
-  array.each {|e| result << e**2} 
+  array.collect {|e| result << e**2} 
   result
 end
